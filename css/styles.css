@@ -1,0 +1,100 @@
+/*
+- Cyan: hsl(179, 62%, 43%)
+- Bright Yellow: hsl(71, 73%, 54%)
+
+### Neutral
+
+- Light Gray: hsl(204, 43%, 93%)
+- Grayish Blue: hsl(218, 22%, 67%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 16px
+
+### Font
+
+- Family: [Karla](https://fonts.google.com/specimen/Karla)
+- Weights: 400, 700
+*/
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+
+}
+
+
+.mainarea{
+    background-color: white;
+    padding: 2rem;
+}
+.mainarea h2{
+    color:hsl(179, 62%, 43%);
+}
+
+.mainarea h3{
+ color: hsl(71, 73%, 54%);
+}
+
+.mainarea p{
+        color: hsl(218, 22%, 67%);
+        line-height: 1.5rem;
+    
+}
+
+.subscriptions{
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+    padding: 2rem;
+}
+
+
+.subscriptions span{
+    color:  hsl(204, 43%, 93%);
+    font-weight: 400;
+    font-size: 0.8em;
+    margin-left: .5rem;
+    opacity: 0.5;
+
+}
+
+.button{
+    background-color: hsl(71, 73%, 54%);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 1px 30px 1px hsl(179, 62%, 43%);
+}
+
+.whyus{
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+    opacity: 0.7;
+    padding: 2rem;
+
+}
+
+.whyus h3{
+    opacity: 1;
+}
+
+.whyus li{
+    list-style: none;
+    color: hsl(204, 43%, 93%);
+    opacity: 1;
+    margin-left: -2.4rem;
+    line-height: 1.5rem;
+}
