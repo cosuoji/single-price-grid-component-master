@@ -33,13 +33,14 @@ body{
     display: flex;
     flex-direction: column;
     padding: 2rem;
-
+    margin-top: 2rem;
 }
 
 
 .mainarea{
     background-color: white;
     padding: 2rem;
+    border-radius: 10px 10px 0 0;
 }
 .mainarea h2{
     color:hsl(179, 62%, 43%);
@@ -61,12 +62,14 @@ body{
     padding: 2rem;
 }
 
+.subscriptions h2{
+    font-size: 2rem;
+}
 
 .subscriptions span{
     color:  hsl(204, 43%, 93%);
     font-weight: 400;
-    font-size: 0.8em;
-    margin-left: .5rem;
+    font-size: 0.5em;
     opacity: 0.5;
 
 }
@@ -84,6 +87,7 @@ body{
     color: white;
     opacity: 0.7;
     padding: 2rem;
+    border-radius: 0 0 10px 10px;
 
 }
 
@@ -97,4 +101,35 @@ body{
     opacity: 1;
     margin-left: -2.4rem;
     line-height: 1.5rem;
+}
+
+@media screen and (min-width:1200px) {
+    
+    .container{
+        width: 900px;
+    }
+
+    .mainarea{
+        border-radius: 10px 10px 0 0 ;
+    }
+    .mainarea p{
+        width: 90%;
+    }
+    .secondarea{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .subscriptions{
+        width: 50%;
+        line-height: 2rem;
+        border-radius: 0 0 0 10px;
+    }
+
+
+    .whyus{
+        width: 50%;
+        border-radius: 0 0 10px 0;
+    }
 }
